@@ -1,0 +1,29 @@
+<app-header></app-header>
+<div class="table-responsive">
+<table class="table ">
+    <thead>
+      <tr>
+        <th scope="col">ID</th>
+        <th scope="col">Partner Name</th>
+        <th scope="col">Email</th>
+        <th scope="col">Location</th>
+        <th scope="col">Phone</th>
+        <th scope="col">Operation</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let resto of restoList">
+        <td>{{resto.id}}</td>
+        <td>{{resto.name}}</td>
+        <td>{{resto.email}}</td>
+        <td>{{resto.location}}</td>
+        <td>{{resto.mobile}}</td>
+        <td>
+          <i routerLink="/delete/{{resto.id}" class="fa fa-trash" style="font-size:20px;color:red;cursor: pointer"></i>
+          <i routerLink="/edit/{{resto.id}}" class="fa fa-edit" style="font-size:20px;color:blueviolet;cursor: pointer"></i>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+  <app-footer></app-footer>

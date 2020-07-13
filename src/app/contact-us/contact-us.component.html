@@ -1,0 +1,71 @@
+<app-header></app-header>
+<img src="assets/restaurant5.jpg" style="width: 100%;" />
+<h3>Contact Us</h3>
+<p>
+    If you would like to contact us please call 9975159636, or fill-out our enquiry form below and we will try our
+    best to get back to you within the next few working days, thank you.
+</p>
+<div class="row" *ngIf="alert">
+    <div class="col-md-6">
+        <div class="alert alert-success alert-dismissible">
+            <a (click)="closeAlert()" class="close" data-dismiss="alert" aria-label="close"
+                style="cursor: pointer;">&times;</a>
+            <strong>Thank You!</strong> we have received your request.
+        </div>
+    </div>
+</div>
+<form [formGroup]="contactForm" (ngSubmit)="onSubmit()">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="form-group">
+                <input type="text" placeholder="*Name" formControlName="name" class="form-control" autocomplete="off"
+                    [ngClass]="{ 'is-invalid': submitted && contactForm.controls.name.errors }" />
+                <div *ngIf="submitted && contactForm.controls.name.errors" class="invalid-feedback">
+                    <div *ngIf="contactForm.controls.name.errors.required">Name is required</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <div class="form-group">
+                <input type="email" placeholder="*Email" formControlName="email" class="form-control" autocomplete="off"
+                    [ngClass]="{ 'is-invalid': submitted && contactForm.controls.email.errors }" />
+                <div *ngIf="submitted && contactForm.controls.email.errors" class="invalid-feedback">
+                    <div *ngIf="contactForm.controls.email.errors.required">Email is required</div>
+                    <div *ngIf="contactForm.controls.email.errors.email">Email must be a valid email address</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <div class="form-group">
+                <input type="text" placeholder="*Telephone" formControlName="telephone" class="form-control"
+                    autocomplete="off"
+                    [ngClass]="{ 'is-invalid': submitted && contactForm.controls.telephone.errors }" />
+                <div *ngIf=" submitted && contactForm.controls.telephone.errors" class="invalid-feedback">
+                    <div *ngIf="contactForm.controls.telephone.errors.required">Telephone is required</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <div class="form-group">
+                <input type="text" placeholder="*Enquiry" formControlName="enquiry" class="form-control"
+                    autocomplete="off" [ngClass]="{ 'is-invalid': submitted && contactForm.controls.enquiry.errors }" />
+                <div *ngIf=" submitted && contactForm.controls.enquiry.errors" class="invalid-feedback">
+                    <div *ngIf="contactForm.controls.enquiry.errors.required">Enquiry is required</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <div class="form-group">
+                <button type="submit" class="btn btn-info">Submit</button>
+            </div>
+        </div>
+    </div>
+</form>

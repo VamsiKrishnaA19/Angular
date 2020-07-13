@@ -1,0 +1,181 @@
+{
+  "branches": [
+    {
+      "name": "KFC1",
+      "email": "kfc@test.com",
+      "location": "HitechCity",
+      "mobile": "040-100-281-01",
+      "id": "1"
+    },
+    {
+      "name": "Hyderabad Dum Biryani",
+      "email": "hyderabaddumbiryani@test.com",
+      "location": "SR Nagar",
+      "mobile": "040-100-282-02",
+      "id": "2"
+    },
+    {
+      "name": "Moglai Biryani",
+      "email": "moglaibiryani@test.com",
+      "location": "Ammerpet",
+      "mobile": "040-100-283-03",
+      "id": "3"
+    },
+    {
+      "name": "Barbeque Nation",
+      "email": "barbequenation@test.com",
+      "location": "BanjaraHills",
+      "mobile": "040-100-284-04",
+      "id": "4"
+    },
+    {
+      "name": "Zaiqa-E",
+      "email": "zaiqae@test.com",
+      "location": "JubliHills",
+      "mobile": "040-100-285-05",
+      "id": "5"
+    }
+  ],
+  "admin": [
+    {
+      "name": "vamsikrishna",
+      "email": "vamsikrishna@test.com",
+      "location": "Hyderabad",
+      "mobile": "9975159636",
+      "id": 1
+    }
+  ],
+  "staff": [
+    {
+      "name": "vamsikrishna",
+      "email": "vamsikrishna@test.com",
+      "location": "HitechCity",
+      "mobile": 9849537045,
+      "id": 1
+    },
+    {
+      "name": "krishnavamsi",
+      "email": "krishnavamsi@test.com",
+      "location": "SR Nagar",
+      "mobile": 9908010559,
+      "id": 2
+    },
+    {
+      "name": "vamsi",
+      "email": "vamsi@test.com",
+      "location": "Ameerpet",
+      "mobile": 7702670636,
+      "id": 3
+    },
+    {
+      "name": "krishna",
+      "email": "krishna@test.com",
+      "location": "Banjara Hills",
+      "mobile": 7396716792,
+      "id": 4
+    },
+    {
+      "name": "vamshi",
+      "email": "vamshi@test.com",
+      "location": "Jubli Hills",
+      "mobile": 9975159636,
+      "id": 5
+    },
+    {
+      "name": "",
+      "email": "",
+      "location": "",
+      "mobile": "",
+      "id": 6
+    }
+  ],
+  "comments": [
+    {
+      "comments": "On behalf of us all – thank you for making our evening such an enjoyable one!Your hard work and consideration were very much appreciated. Kindest regards Maria Watts",
+      "id": 1
+    },
+    {
+      "comments": "We went for a meal to celebrate a birthday, and as usual had a fantastic meal. Great service, great food and great value for money. We recommend Kantamneni's Restaurant to people",
+      "id": 2
+    },
+    {
+      "comments": "Visited Kantamneni's Restaurant with friends last Sunday on the way to an event at the NEC. Really lovely meal and very warm welcome – we would recommend this lovely restaurant and will try to go back again",
+      "id": 3
+    },
+    {
+      "comments": "Excellent environment, friendly service, great menu choices and really decent food and at affordable prices. Will be back.",
+      "id": 4
+    },
+    {
+      "comments": "I just wanted to say a huge thank you for helping my 50th birthday to be so enjoyable. The food was absolutely delicious, all the staff friendly and the ambience was perfect for such an occasion. Everyone thoroughly enjoyed themselves. You all worked so hard to make it all happen so smoothly and I really appreciate all your hard work. It is a day I will remember for a long time",
+      "id": 5
+    },
+    {
+      "comments": "Excellent Food",
+      "date": "2020-06-04T11:21:29.478Z",
+      "id": 6
+    },
+    {
+      "comments": "Excellent food and staff. I recommend Kantamneni's Restaurant!",
+      "date": "2020-06-04T11:23:50.181Z",
+      "id": 7
+    },
+    {
+      "comments": "Nice environment and excellent food and staff.",
+      "date": "2020-06-06T04:53:52.310Z",
+      "id": 8
+    },
+    {
+      "comments": "Good place, weather, staff and food.",
+      "date": "2020-06-13T11:23:01.838Z",
+      "id": 9
+    },
+    {
+      "comments": "Excellent food.",
+      "date": "2020-06-16T09:42:35.399Z",
+      "id": 10
+    },
+    {
+      "comments": "very good",
+      "date": "2020-07-06T05:11:23.908Z",
+      "id": 11
+    }
+  ],
+  "contactUs": [
+    {
+      "name": "KrishnaVamsi",
+      "email": "krishnavamsi@test.com",
+      "telephone": "9975159636",
+      "enquiry": "Book 4 seats on tomorrow evening from 8:00 PM to 10:00 PM",
+      "id": 1
+    },
+    {
+      "name": "Rakesh",
+      "email": "rakesh.yenjala@test.com",
+      "telephone": "1234567890",
+      "enquiry": "Booking",
+      "id": 2
+    },
+    {
+      "name": "Nagaraju",
+      "email": "nagaraju.jvl@test.com",
+      "telephone": "1234567890",
+      "enquiry": "Book",
+      "id": 3
+    },
+    {
+      "name": "Mahir Ali",
+      "email": "mahir.ali@test.com",
+      "telephone": "1234567890",
+      "enquiry": "Book",
+      "id": 4
+    },
+    {
+      "name": "arfwerewrewrewr",
+      "email": "srgrgfdg",
+      "telephone": "ewrewrer",
+      "enquiry": "ewrewrer",
+      "id": 5
+    }
+  ]
+}

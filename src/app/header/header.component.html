@@ -1,0 +1,59 @@
+<nav *ngIf="role!= 'guest'" class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" routerLink="">Resto</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
+    aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" routerLink="/add">Add Partner <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" routerLink="/partnerlist">Partner List</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" routerLink="/register">Add Staff</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" routerLink="/logout">Logout</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<nav *ngIf="role=='guest'" class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" routerLink="/home">Home</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
+    aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" routerLink="/about">About Us <span class="sr-only">(current)</span></a>
+      </li>
+      <li>
+        <a>Menus</a>
+        <ul class="dropdown">
+          <li><a routerLink="/menus/main-menu">Main Menu</a></li>
+          <li><a routerLink="/menus/lunch-early-evening-menu">Lunch & Early Evening Menu</a></li>
+          <li><a routerLink="/menus/sunday-lunch-menu">Sunday Lunch Menu</a></li>
+          <li><a routerLink="/menus/wine-list">Wine List</a></li>
+        </ul>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" routerLink="/special-events">Special Events</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" routerLink="/comments">Customer Comments</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" routerLink="/contact">Contact Us</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" routerLink="/logout">Logout</a>
+      </li>
+    </ul>
+  </div>
+</nav>
